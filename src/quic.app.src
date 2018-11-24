@@ -1,0 +1,7 @@
+{application, quic, [
+  {vsn, "0.11"},
+  {description, "QUIC UDP server"},
+  {applications, [kernel, stdlib]},
+  {mod, {quic, []}},
+  {licenses, ["ISC"]}
+]}.
